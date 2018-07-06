@@ -24,12 +24,12 @@ public class OrderDetailRepositoryTest {
     @Test
     public void saveTest(){
         OrderDetail orderDetail=new OrderDetail();
-        orderDetail.setDetailId("1234567810");
-        orderDetail.setOrderId("123457");
-        orderDetail.setProductId("1234568");
-        orderDetail.setProductName("草莓奶昔");
+        orderDetail.setDetailId("1234567811");
+        orderDetail.setOrderId("123458");
+        orderDetail.setProductId("123456");
+        orderDetail.setProductName("银耳莲子粥");
         orderDetail.setProductPrice(new BigDecimal(5.5));
-        orderDetail.setProductIcon("http:xxx.jps");
+        orderDetail.setProductIcon("http:xxx.jpg");
         orderDetail.setProductQuantity(3);
         OrderDetail result = repository.save(orderDetail);
         Assert.assertNotNull(result);

@@ -44,7 +44,7 @@ public class ProductServiceImplTest {
     @Test
     public void save() throws Exception {
         ProductInfo productInfo = new ProductInfo();
-        productInfo.setProductId("123457");
+        productInfo.setProductId("133456");
         productInfo.setProductName("五红粥");
         productInfo.setProductPrice(new BigDecimal(3.5));
         productInfo.setProductStock(100);
